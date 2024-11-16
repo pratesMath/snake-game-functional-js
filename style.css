@@ -1,0 +1,34 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #2a2139; /* Base escura do tema */
+}
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(20, 20px);
+  grid-template-rows: repeat(20, 20px);
+  gap: 1px;
+  background-color: #3c2a4d; /* Um tom um pouco mais claro para contraste */
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+  background-color: #00ff9f; /* Neon verde */
+}
+
+.snake {
+  background-color: #ae81ff; /* Roxo neon */
+}
+
+.snake_tail {
+  background-color: #fd9720; /* Laranja neon */
+}
+
+.fruit {
+  background-color: #ff6188; /* Rosa neon */
+}
